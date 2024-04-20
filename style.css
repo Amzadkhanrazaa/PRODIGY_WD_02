@@ -1,0 +1,101 @@
+body{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color:beige;
+}
+#myh1{
+    font-size: 4rem;
+    font-family: "arial", sans-serif;
+    color: hsl(0, 0%, 25%);
+}
+
+.Watch {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    border: 5px solid;
+    border-radius: 40px;
+    background-color: white;
+}
+
+.display{
+    font-size: 5rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    color: hsl(0, 0%, 25%);
+    text-shadow: 2px 2px 6px hsl(0, 0%, 75%);
+    margin-bottom: 25px;
+
+}
+
+button {
+    font-size: 1.5rem;
+    width: 8em;
+    padding: 10px 20px;
+    margin : 10px;
+    min-width: 125px;
+    border: none;
+    border-radius: 10%;
+    cursor: pointer;
+    color: white;
+    transition: background-color 0.5s ease-in-out;
+}
+
+
+
+.start {
+    background-color:hsl(120, 100%, 45%);
+}
+.start:hover{
+    background-color: hsl(120, 100%, 25%);
+}
+.pause {
+  background-color: hsl(0, 100%, 60%);
+}
+.pause:hover{
+  background-color:hsl(0, 100%, 30%);
+}
+.reset{
+  background-color: hsl(80, 61%, 50%);
+}
+.reset:hover {
+  background-color:hsl(84, 100%, 29%);
+}
+.lap{
+  background-color: hsl(0, 59%, 61%);
+}
+.lap:hover {
+  background-color: hsl(0, 59%, 31%);
+}
+
+/* .stopwatch {
+    text-align: center;
+    margin-top: 50px;
+    border: 2px solid black;
+    background-color: blanchedalmond;
+  }
+  
+  .display {
+    font-size: 36px;
+    margin-bottom: 20px;
+    stop-color: azure;
+  }
+  
+  button {
+    font-size: 18px;
+    margin: 5px;
+    padding: 10px 20px;
+    color: rgb(47, 26, 26);
+
+  }
+   */
+  ul.laps {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  ul.laps li {
+    margin-bottom: 5px;
+  }
